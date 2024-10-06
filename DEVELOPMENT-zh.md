@@ -81,7 +81,7 @@ jhipster --with-entities
 
 ### 使用文本编辑器
 
-由于修改JHipster生成器包括修改Java和JavaScript模板，因此大多数IDE将无法正常工作。我们建议您使用文本编辑器（如[VSCode](https://code.visualstudio.com/) 或 [IntelliJ IDEA](https://www.jetbrains.com/idea/) t对更改进行编码。 建议使用 ESLint 和 EditorConfig 扩展来帮助遵守代码约定。
+由于修改JHipster生成器包括修改Java和JavaScript模板，因此大多数IDE将无法正常工作。我们建议您使用文本编辑器（如[VSCode](https://code.visualstudio.com/) 或 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 对更改进行编码。 建议使用 ESLint 和 EditorConfig 扩展来帮助遵守代码约定。
 
 ### 使用调试器
 
