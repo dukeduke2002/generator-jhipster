@@ -26,8 +26,10 @@
     "isolatedModules": true /* Ensure that each file can be safely transpiled independently. */,
 
     /* Type Checking */
-    "strict": true /* Enable all strict type-checking options. */,
-    "noImplicitAny": false,
+    "strict": true /* Enable all strict type-checking options. 将“--strict”编译选项设置为true将开启所有的严格类型检查编译选项*/,
+    "noImplicitAny": false, /*如果发生了隐式的any类型转换，那么不会产生编译错误。 */
+
+    //当启用了“--strictNullChecks”编译选项时，undefined值和null值不再能够赋值给不相关的类型。
 
     /* Completeness */
     "skipLibCheck": false /* Skip type checking all .d.ts files. */
