@@ -1,18 +1,18 @@
-# app sub-generator
+# app 子生成器
 
-`jhipster` command entrypoint, it composes with `common`, `languages`, `server`, and `client`.
+`jhipster` 命令入口点，它由 `common`, `languages`, `server`, 和 `client`组成。
 
-## Customizing
+## 自定义
 
-JHipster implementation allows you to override almost every aspect of the generation process.
+JHipster实现允许您覆盖生成过程的几乎所有方面。
 
 [SQL/spring-data-relational customizations](https://github.com/jhipster/generator-jhipster/blob/skip_ci-architecture/generators/spring-data-relational/README.md#sqlspring-data-relational-sub-generator)
 
-### Application
+### 应用程序
 
-JDL doesn't support annotations, customizations must be done through local blueprint.
+JDL 不支持注释，自定义必须通过本地蓝图完成。
 
-`.blueprint/app/generator.mjs` (to create a local blueprint follow https://www.jhipster.tech/modules/creating-a-blueprint/#local-blueprints):
+`.blueprint/app/generator.mjs` (要创建本地蓝图，请遵循 https://www.jhipster.tech/modules/creating-a-blueprint/#local-blueprints):
 
 ```js
 get [Generator.PREPARING]() {
@@ -24,9 +24,9 @@ get [Generator.PREPARING]() {
 }
 ```
 
-### Entities
+### 实体
 
-Every annotation is loaded as entities properties and will be used at generation process.
+每个注解都作为实体属性加载，并将在生成过程中使用。
 
 ```jdl
 @CustomsProp1(customValue)
@@ -44,9 +44,9 @@ entity Bar {}
 }
 ```
 
-#### Notable customizations
+#### 值得注意的自定义
 
-##### Label
+##### 标签
 
 ```
 @EntityClassHumanized("Departamento")
@@ -54,9 +54,9 @@ entity Bar {}
 entity Department {}
 ```
 
-##### Translation variant
+##### 翻译变体 
 
-Translation variant allows different translations for the entity whenever applicable.
+翻译变体允许在适用时对实体进行不同的翻译。
 
 ```jdl
 @EntityI18nVariant('female')
@@ -65,11 +65,11 @@ Translation variant allows different translations for the entity whenever applic
 entity Company {}
 ```
 
-`female` variant is supported by `pt-br` locale.
+`female` 变体受 `pt-br` 区域设置支持。
 
-##### Authority
+##### 权限
 
-Secure the entity with the authority.
+使用权限保护实体。
 
 ```
 @EntityAuthority(ROLE_ADMIN)
@@ -77,21 +77,21 @@ Secure the entity with the authority.
 entity Department {}
 ```
 
-##### Admin Entity
+##### 管理员实体 
 
-Declare the entity as an admin entity like User and Authority.
-The entity is added to the admin menu and secured with ROLE_ADMIN authority.
+将实体声明为管理员实体，如如 User 和 Authority。
+该实体将添加到管理员菜单中，并使用 ROLE_ADMIN 权限进行保护。
 
 ```
 @AdminEntity
 entity Department {}
 ```
 
-### Fields
+### 字段 
 
-#### Notable customizations
+#### 值得注意的自定义项
 
-##### Label
+##### 标签
 
 ```jdl
 entity Company {
@@ -100,11 +100,11 @@ entity Company {
 }
 ```
 
-### Relationships
+### 关系 
 
-#### Notable customizations
+#### 值得注意的自定义项
 
-##### Label
+##### 标签
 
 ```jdl
 relationship ManyToOne {
@@ -112,12 +112,12 @@ relationship ManyToOne {
 }
 ```
 
-##### Eager loading relationships
+##### 预先加载关系
 
-Appliable to SQL/spring-data-relational with partial support at MongoDb/spring-data-mongodb.
-Neo4j eager loads every relationship by default.
+适用于 SQL/spring-data-relational，在 MongoDb/spring-data-mongodb上提供部分支持。
+Neo4j默认加载每个关系。
 
-JHipster UI uses only the id and `otherEntityFieldName` properties, by default only fields used by the UI will be fetched.
+JHipster UI仅使用id和`otherEntityFieldName`属性，默认情况下，只会获取UI使用的字段。
 
 ```jdl
 relationship OneToMany {
@@ -125,4 +125,4 @@ relationship OneToMany {
 }
 ```
 
-Related issues: (#23917)[https://github.com/jhipster/generator-jhipster/issues/23917]
+相关问题： (#23917)[https://github.com/jhipster/generator-jhipster/issues/23917]
