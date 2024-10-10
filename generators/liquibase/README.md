@@ -1,12 +1,12 @@
-# SQL/spring-data-relational sub-generator
+# SQLspring-data-relational 子生成器
 
-Adds support to liquibase to SQL databases and Neo4j.
+添加对 SQL 数据库和 Neo4j 的 liquibase 支持。
 
-## Customizing
+## 定制
 
-Customizing basics can be found at [Customizing](../app/README.md#customizing)
+定制基础知识可以在 [定制](../app/README.md#customizing)
 
-### Notable relationships customizations
+### 值得注意的关系自定义
 
 #### OnUpdate/OnDelete
 
@@ -16,4 +16,4 @@ relationship ManyToOne {
 }
 ```
 
-Allowed values: `NO ACTION | RESTRICT | CASCADE | SET NULL | SET DEFAULT`
+允许的值: `NO ACTION | RESTRICT | CASCADE | SET NULL | SET DEFAULT`

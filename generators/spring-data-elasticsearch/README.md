@@ -1,18 +1,20 @@
-# spring-data-elasticsearch sub-generator
+# spring-data-elasticsearch 子生成器
 
-Elasticsearch for Spring generator.
+Elasticsearch for Spring 生成器。
 
-## Customizing
+## 自定义
 
-### Entities
+### 实体
 
-#### Notable customizations
+#### 值得注意的自定义
 
-##### Search Layer
+##### 搜索层
 
-Disable the search service generation.
+禁用搜索服务生成。
 
 ```
 @EntitySearchLayer(false)
 entity OptionalLayers {}
 ```
+
+   

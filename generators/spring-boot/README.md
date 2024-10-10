@@ -1,17 +1,16 @@
-# spring-boot sub-generator
+# spring-boot 子生成器
 
-Spring Boot generator.
+Spring Boot 生成器。
 
-## Customizing
+## 自定义
 
-### Entities
+### 实体
 
-#### Notable customizations
+#### 值得注意的自定义
 
-##### Layers
+##### 层
 
-Customize @PreAuthorize annotations at Rest layer.
-Calculated using (@EntityAuthority)[../app/README.md#Authority] by default.
+自定义 @PreAuthorize Rest 层的注释。缺省使用 (@EntityAuthority)[../app/README.md#Authority] 。
 
 ```
 @EntitySpringPreAuthorize("hasAuthority('ROLE_CUSTOM')")

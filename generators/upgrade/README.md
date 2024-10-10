@@ -1,22 +1,22 @@
 # upgrade sub-generator
 
-Upgrades the application to a newer generator-jhipster version.
+将应用程序升级到更新的 generator-jhipster 版本。
 
-The upgrade process generates 4 commits:
+升级过程生成 4 个提交：
 
-- the reference application
-- a merge commit with unrelated histories
-- the upgrade application
-- a merge commit to apply the upgrade commit to the existing application
+- 参考应用程序
+- 具有不相关历史记录的合并提交
+- 升级应用程序
+- 将升级提交应用于现有应用程序的合并提交
 
-## Upgrading from v7
+## 从 v7 升级
 
-To upgrade to v8 you need to upgrade to v7.9.4 before due to node v18/v20 compatibility.
-If you use blueprint that uses jhipster v7, you need to use [jhipster-migrate](https://github.com/jhipster/generator-jhipster-migrate/).
+要升级到 v8，由于节点 v18v20 兼容性，您需要先升级到 v7.9.4。
+如果使用使用 jhipster v7 的 blueprint，则需要使用 [jhipster-migrate](https://github.com/jhipster/generator-jhipster-migrate/)。
 
-## Changing the application configuration
+## 更改应用程序配置
 
-It's possible to apply configuration changes using the upgrade process.
+可以使用升级过程应用配置更改。
 
 For example to switch databases:
 

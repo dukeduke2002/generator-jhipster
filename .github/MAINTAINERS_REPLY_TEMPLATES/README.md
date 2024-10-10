@@ -1,10 +1,10 @@
-# Reply templates for maintainers
+# 维护者的回复模板
 
-Here is a list of common **reply messages** shared by core team members to help them respond to issues.
+以下是核心团队成员共享的常见回复消息列表，以帮助他们回复问题。
 
-You can add those to your [GitHub saved replies settings](https://github.com/settings/replies).
+您可以将这些添加到您的 [GitHub 保存的回复设置](https://github.com/settings/replies).
 
-- [Guidelines are not followed](GUIDELINES_NOT_FOLLOWED.md)
-- [Use Stack Overflow](USE_STACK_OVERFLOW.md)
-- [Don't comment on an old issue](DONT_COMMENT_ON_OLD_ISSUE.md)
-- [Build as a module](BUILD_AS_MODULE.md)
+- [未遵循指南](GUIDELINES_NOT_FOLLOWED.md)
+- [使用 Stack Overflow](USE_STACK_OVERFLOW.md)
+- [不对旧问题发表评论](DONT_COMMENT_ON_OLD_ISSUE.md)
+- [构建为模块](BUILD_AS_MODULE.md)

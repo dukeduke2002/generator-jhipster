@@ -1,7 +1,7 @@
-# SQL/spring-data-relational sub-generator
+# SQLspring-data-relational 子生成器
 
-Adds support to spring-data-relational and provides sql related utilities.
+添加对 spring-data-relational 的支持，并提供 sql 相关实用程序。
 
-## Customizing
+## 定制
 
-Customizing basics can be found at [Customizing](../app/README.md#customizing)
+定制基础知识可以在 [定制](../app/README.md#customizing) 中找到。

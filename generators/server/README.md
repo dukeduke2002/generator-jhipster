@@ -1,17 +1,16 @@
-# server sub-generator
+# 服务器子生成器
 
-Server generator.
+ 服务器生成器。
 
-## Customizing
+## 自定义
 
-### Entities
+### 实体
 
-#### Notable customizations
+#### 值得注意的自定义
 
-##### Layers
+##### 图层
 
-Every layer is generated for every Entity by default.
-It's possible to disable layers.
+默认情况下，会为每个实体生成每个图层。可以禁用图层。
 
 ```
 @EntityDomainLayer(false)
