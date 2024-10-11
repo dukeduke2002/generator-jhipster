@@ -1,20 +1,20 @@
-This ticket has been closed as the **guidelines are not followed**.
+由于 **未遵守准则**，此工单已关闭。
 
-Tickets must follow our [Guidelines](https://github.com/jhipster/generator-jhipster/blob/main/CONTRIBUTING.md), as mentioned in:
+工单必须遵循我们的 [指南](https://github.com/jhipster/generator-jhipster/blob/main/CONTRIBUTING.md)， 如以下所述：
 
-1.  our [Readme file on the front page of the project](https://github.com/jhipster/generator-jhipster/blob/main/README.md),
-2.  the ["create a new ticket" page](https://github.com/jhipster/generator-jhipster/issues/new/choose) and
-3.  our [Help page](https://www.jhipster.tech/help/)
+1.  我们的 [项目首页的自述文件](https://github.com/jhipster/generator-jhipster/blob/main/README.md),
+2.  the [“创建新票证”页面](https://github.com/jhipster/generator-jhipster/issues/new/choose) 和
+3.  我们的 [帮助页面](https://www.jhipster.tech/help/)
 
-We have also created a template on the ["create a new ticket" page](https://github.com/jhipster/generator-jhipster/issues/new/choose) to help you follow those guidelines.
+我们还在 [“创建新票证” 页面](https://github.com/jhipster/generator-jhipster/issues/new/choose) 上创建了一个模板，以帮助您遵循这些指南。
 
-**If this is indeed a JHipster bug**, please open a new issue with proper details or update this issue with all details and request to reopen.
-Issues opened without proper details will be closed without explanation.
+**如果这确实是JHipster错误**，请打开一个具有适当详细信息的新问题，或使用所有详细信息更新此问题并请求重新打开。
+在没有适当详细信息的情况下打开的问题将在不解释的情况下关闭。
 
-**If you have a question** please use Stack Overflow, and tag the question with [jhipster](http://stackoverflow.com/questions/tagged/jhipster). This helps the project to keep the issue tracker clean. Also, Stack Overflow will give your question a larger audience:
+**如果您有问题** ，请使用 Stack Overflow，并使用 [jhipster](http://stackoverflow.com/questions/tagged/jhipster)标记问题。这有助于项目保持问题跟踪器的整洁。 此外，Stack Overflow 将为您的问题提供更多的受众：
 
-- This will increase your chances to get an answer
-- Answers will be of higher quality, as there is a voting system
-- This will also help other users who might have the same issue, as questions are tagged and easily searchable
+- 这将增加您获得答案的机会
+- 答案将具有更高的质量，因为有投票系统
+- 这也将帮助可能有相同问题的其他用户，因为问题被标记且易于搜索
 
-Finally, you can also use [our chat room on gitter](https://gitter.im/jhipster/generator-jhipster).
+最后，您还可以使用 [我们在 gitter 上的聊天室](https://gitter.im/jhipster/generator-jhipster).

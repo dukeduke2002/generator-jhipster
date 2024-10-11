@@ -1,10 +1,10 @@
-Please don't comment on an **old issue**.
-If you think this issue still applies, please [create a new ticket](https://github.com/jhipster/generator-jhipster/issues/new/choose) with proper details.
+请不要对 **旧问题**发表评论。
+如果您认为此问题仍然存在，请 [创建新票证](https://github.com/jhipster/generator-jhipster/issues/new/choose) 并提供适当的详细信息。
 
-**If you have a question** please use Stack Overflow, and tag the question with [jhipster](http://stackoverflow.com/questions/tagged/jhipster). This helps the project to keep the issue tracker clean. Also, Stack Overflow will give your question a larger audience:
+**如果您有问题** ，请使用 Stack Overflow， 并使用 [jhipster](http://stackoverflow.com/questions/tagged/jhipster). 标记问题。这有助于项目保持问题跟踪器的整洁。 此外，Stack Overflow 将为您的问题提供更多的受众：
 
-- This will increase your chances to get an answer
-- Answers will be of higher quality, as there is a voting system
-- This will also help other users who might have the same issue, as questions are tagged and easily searchable
+- 这将增加您获得答案的机会
+- 答案将具有更高的质量，因为有投票系统
+- 这也将帮助可能有相同问题的其他用户，因为问题被标记且易于搜索
 
-Finally, you can also use [our chat room on gitter](https://gitter.im/jhipster/generator-jhipster).
+最后，您还可以使用 [我们在 gitter 上的聊天室](https://gitter.im/jhipster/generator-jhipster).
